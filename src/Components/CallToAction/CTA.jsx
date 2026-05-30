@@ -32,24 +32,24 @@ function CTA() {
           
           {/* First Button (Explore/Get Started) */}
           <button 
-            onClick={handleExploreProducts} // 🛠️ ফিক্স ১: ফাংশন লিংক করা হলো
+            onClick={handleExploreProducts}
             className={`w-full sm:w-auto py-3.5 px-8 rounded-full font-bold text-base transition-all cursor-pointer outline-none ${
               activeButton === 'explore' 
                 ? 'bg-white text-[#8B5CF6] shadow-lg' 
                 : 'bg-transparent text-white border-2 border-white hover:bg-white/10'
-            }`} // 🛠️ ফিক্স ২: ডাইনামিক ক্লাস লজিক
+            }`} 
           >
             Get Started For Free
           </button>
           
           {/* Second Button (Pricing/Contact) */}
           <button 
-            onClick={handleViewPricing} // 🛠️ ফিক্স ১: ফাংশন লিংক করা হলো
+            onClick={handleViewPricing} 
             className={`w-full sm:w-auto py-3.5 px-8 rounded-full font-bold text-base transition-all cursor-pointer outline-none ${
               activeButton === 'pricing' 
                 ? 'bg-white text-[#8B5CF6] shadow-lg' 
                 : 'bg-transparent text-white border-2 border-white hover:bg-white/10'
-            }`} // 🛠️ ফিক্স ২: ডাইনামিক ক্লাস লজিক
+            }`} 
           >
             Contact Support
           </button>

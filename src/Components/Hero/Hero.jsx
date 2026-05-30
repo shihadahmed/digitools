@@ -22,7 +22,6 @@ function Hero() {
           <div className="flex flex-wrap items-center gap-4 pt-2">
             <button className="btn btn-md md:btn-lg bg-gradient-to-r from-[#4F39F6] to-[#9514FA] hover:opacity-95 border-none text-white font-bold rounded-full normal-case px-6 md:px-8 shadow-lg shadow-purple-100 transition-all duration-200 cursor-pointer">Explore Products</button>
             <button className="btn btn-md md:btn-lg bg-white border border-[#4F39F6] text-[#4F39F6] hover:bg-purple-50 font-bold rounded-full normal-case px-6 md:px-8 flex items-center gap-2 transition-all duration-200 cursor-pointer">
-              {/* 🛠️ এক্সটার্নাল প্যাকেজ ছাড়া সরাসরি SVG প্লে আইকন বসিয়ে দিলাম */}
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#4F39F6"><path d="m7 4 12 8-12 8V4z"/></svg>
               Watch Demo
             </button>
