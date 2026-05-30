@@ -1,5 +1,5 @@
 import React from 'react'
-import {Menu, ShoppingCart} from 'lucide-react';
+import { Menu, ShoppingCart } from 'lucide-react';
 import digitoolLogo from '../../assets/DigiTools.svg';
 
 
